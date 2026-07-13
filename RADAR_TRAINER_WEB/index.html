@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>RADAR — Treinamento Testador Vivo</title>
+
+<link rel="manifest" href="manifest.json" />
+<link rel="icon" href="icons/icon-192.png" />
+<link rel="apple-touch-icon" href="icons/icon-192.png" />
+<meta name="theme-color" content="#1a1826" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="apple-mobile-web-app-title" content="RADAR" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-icon">🛰️</span>
+      <div>
+        <h1>RADAR</h1>
+        <p id="subtitle">Treinamento Testador Júnior — Telecom + Octane</p>
+      </div>
+    </div>
+    <div class="overall-progress">
+      <div class="bar-track">
+        <div id="overallBar" class="bar-fill"></div>
+      </div>
+      <span id="overallLabel">0% concluído</span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <nav id="sidebar" class="sidebar"></nav>
+
+    <main id="content" class="content">
+      <p class="loading">Carregando programa...</p>
+    </main>
+  </div>
+
+  <footer class="footer">
+    Feito sob medida pra sua entrevista na Vivo. Progresso salvo automaticamente neste dispositivo.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
